@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgb(255, 130, 249) 100%);
+}
+
+.logo{
+    height: 500px;
+    margin-left: 32%;
+    margin-top: -30px;
+}
+
+.form-entrada{
+    margin-left: 40%;
+}
+
+input[type='text']#insira-nome{
+    padding-left: 15px;
+    background-color: rgba(148,187,233);
+    border: none;
+    border-bottom: 2px solid;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input[type='text']#insira-nome:hover{
+    background-color: rgb(135, 171, 211);
+}
+
+#sub-entrar{
+   background-color: rgb(148,187,233);
+   border: none;
+   border-radius: 5px;
+   height: 25px;
+   width: 80px;
+   border-bottom: 2px solid;
+}
+
+#sub-entrar:hover{
+    background-color: rgb(135, 171, 211);
+}
+
+
+
+
+
+
+
+
+
+
+.sect-2{
+    align-items: center;
+    font-size: 30px;
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgb(255, 130, 249) 100%);
+}
+
+.linha-separa{
+    width: 100%;
+    background-color: black;
+    height: 2px;
+}
+
+#bem-vindo-name{
+    font-size: calc('.sect-2'+20px);
+    font-weight: bold;
+}
+.spn-bemvindo{
+    justify-content: center;
+}
+
+.quadro-jogo{
+    display:flex;
+    justify-content:space-evenly;
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgb(255, 130, 249) 100%);
+}
+
+
+.linha-horizontal{
+    align-items: center;
+    height: 570px;
+    width: 1px;
+    border-right:2px solid black ;
+}
+
+.mostra-icon{
+    max-height: 200px;
+    max-width: 200px;
+}
+.mostra-icon2{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#item-escolhido{
+    display: none;
+}
+
+.botao-escolha-item {
+    font-size:15px;
+    font-family:Georgia;
+    width:127px;
+    height:42px;
+    border-width:0px;
+    color:black;
+    border-color:#c584f3;
+    font-weight:bold;
+    font-style:italic;
+    border-radius: 13px;
+    text-shadow: 1px -3px 3px #9752cc;
+    background:linear-gradient(#dfbdfa, #bc80ea);
+  }
+  
+  .botao-escolha-item:hover {
+    background: linear-gradient(#bc80ea, #dfbdfa);
+  }
+
+  
+  
+.tela-1{
+    display: block;
+}
+.tela-2{
+    display: none;
+}

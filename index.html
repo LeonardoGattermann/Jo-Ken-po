@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="tela-1">
+        <header>
+            <div class="div-logo"><img class="logo" src="img/picwish.png" alt=""></div>
+        </header>
+        <main>
+            <section class="form-entrada">
+                <input type="text" name="Nome" id="insira-nome" placeholder="Insira Seu Nome" required>
+                <input type="submit" value="Entrar" id="sub-entrar" onclick="enviaName()">
+            </section>
+        </main>
+    </div>
+   
+   
+    <div class="tela-2">
+        <section class="sect-2">
+            Seja bem vindo <span id="bem-vindo-name"></span>. Aproveite o jogo!!
+        </section>
+        <div class="linha-separa"></div>
+        <main class="quadro-jogo">
+            <section class="lado-left">
+                <h2>Escolha sua Opção</h2>
+                <button class="botao-escolha-item" onclick="escolheuItem('pedra')">Pedra</button>
+                <button class="botao-escolha-item" onclick="escolheuItem('papel')">Papel</button>
+                <button class="botao-escolha-item" onclick="escolheuItem('tesoura')">Tesoura</button>
+                <div id="item-escolhido"><h2>Você Escolheu</h2><br>
+                    <div id="item-escolhido2"></div><p><button class="botao-escolha-item" onclick="geraItemAleatorio()">Confirmar</button></p></div>
+            </section>
+            <div class="linha-horizontal"></div>
+            <section class="lado-right"><h2>Computador</h2><br>
+            <div id="item-sorteado"></div></section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
